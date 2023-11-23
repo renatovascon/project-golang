@@ -5,6 +5,7 @@ import (
 
 	"github.com.br/renatovascon/project-golang/internal/infra/database"
 	"github.com.br/renatovascon/project-golang/internal/usecase"
+	_ "github.com/mattn/go-sqlite3"
 )
 
 func main() {
